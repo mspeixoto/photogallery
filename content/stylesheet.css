@@ -1,0 +1,133 @@
+html{
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 5px;
+}
+
+
+main{
+    background-color: #fff;
+    width: 900px;
+    position: relative;
+    left: 175px;
+}
+
+body{
+    background-color: #000;
+}
+
+/*NAVIGATION*/
+
+nav li{
+    list-style: none;
+    display: inline;
+    color: #fff;
+    position: absolute;
+    right: 800px;
+}
+nav a {
+    font-size: 1.5em;
+}
+
+
+/*About section*/
+
+#About h2{       
+    text-align: center;
+}
+h3, p{
+    padding-right: 5px;
+}
+/*GALLERY*/
+
+#Gallery h2{
+    text-align: center;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+figcaption {
+    font-size: 1em;
+}
+.fig{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    left:0px;
+    
+ 
+}
+.fig, img{
+    max-width: 285px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;  
+    padding-right: 0px;  
+}
+#pictures{
+}
+
+figcaption {
+    position: relative;
+    bottom: 30px;
+}
+
+label {
+    font-size: 1em;
+}
+
+input {
+    font-size: 1em;
+}
+
+small {
+    font-size: 1em;
+}
+
+/*H1 H2 H3*/
+h1{
+    font-size: 3em;
+}
+h1{
+    background-color: #fff;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+}
+
+/*YOURINFO*/
+#yourinfo{
+    color: #fff;
+}
+#yourinfo {
+    text-align: center;
+}
+
+
+/*FORM*/
+
+#form li{
+    text-align:left;
+    list-style: none;
+}
+#form li:nth-child(even){
+    background-color: #fff;
+    color: #007d7b;
+    text-align: left;   
+}
+#form li:nth-child(odd){
+    padding-top: 15px;
+}
+#form h3 {
+    background-color: #007d7b;
+}
+
+
+footer{
+    color: #fff;
+    text-align: center;
+    background-color:#000; 
+}
